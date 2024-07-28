@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+      <img id="sky" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+    </a-assets>
+
+    <a-sky src="#sky"></a-sky>
+
+    
+    <a-entity id="cameraRig" position="0 1.6 0"></a-entity>
+
+    <a-sphere position="0 1.25 -5" radius="1.5" color="white"></a-sphere>
+    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="white">
+      
+    </a-cylinder>
+
+    <a-pyramid color="white" position="0 0.5 -4" height="1" width="2" depth=2></a-pyramid>
+
+    
+      
+  </a-scene>
+</body>
+
+</html>
